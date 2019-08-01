@@ -1,13 +1,4 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-
-export function Image() {
-  return (
-    <>
-      <img src='https://cdn.mos.cms.futurecdn.net/yHenHqtMKYqEno7k6HCEif-602-80.jpg' alt="space picture"></img>
-    </>
-  );
-}
+import React from "react";
 
 export function Info() {
   return (
@@ -17,5 +8,3 @@ export function Info() {
     </>
   );
 }
-
-

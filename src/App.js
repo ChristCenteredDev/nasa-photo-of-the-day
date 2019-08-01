@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
 
-import { Card } from './components/Card';
+import { NasaCard } from './components/NasaCard';
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <NasaCard />
     </div>
   );
 }
